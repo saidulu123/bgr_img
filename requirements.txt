@@ -1,3 +1,4 @@
 onnxruntime==1.20.1
 python-dateutil==2.9.0.post0
 streamlit==1.41.1
+rembg==2.0.61
