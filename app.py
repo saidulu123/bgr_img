@@ -107,7 +107,7 @@ if valid_foreground and valid_background:
                 output_img = Image.alpha_composite(background_img, processed_foreground)
 
                 # Display the result
-                st.image(output_img, caption="🎨 Final Output Image", use_column_width=True)
+                st.image(output_img, caption="🎨 Final Output Image", use_container_width=True)
                 st.success("✅ Image processing completed successfully!")
 
                 # Save output image for download
